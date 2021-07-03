@@ -22,6 +22,7 @@ Detailed screenshots of every step in the flow for all four of this project's de
 Using our knowledge of Pandas, we preprocessed the dataset in order to perform PCA.
 
 Steps:
+
 1. Load the crypto_data.csv dataset. See Figure A1.
 2. Keep all the cryptocurrencies that are being traded. See Figure A2.
 3. Keep all the cryptocurrencies that have a working algorithm.
@@ -46,6 +47,7 @@ Figure 1 - The crypto_df dataframe after all preprocessing but before encoding a
 Using our knowledge of how to apply the Principal Component Analysis (PCA) algorithm, we reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame called pcs_df.
 
 Steps:
+
 11. Using PCA to reduce dimension to three principal components. See Figure A10.
 12. Create a DataFrame with the three principal components. See Figure A11.
 
@@ -60,6 +62,7 @@ Figure 2 - The result of Principal Component Analysis (PCA) - pcs_df - showing t
 Using our knowledge of the K-means algorithm, we created an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, you’ll run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
 
 Steps:
+
 13. Create an elbow curve to find the best value for K. See Figure A12.
 14. Initialize the K-Means model, Fit the model, predict clusters. See Figure A13.
 15. Create a new DataFrame including predicted clusters and cryptocurrencies features. See Figure A14.
@@ -75,6 +78,7 @@ Figure 3 - The clustered_df with the new Class (i.e. Cluster) column from KMeans
 Using our knowledge of creating scatter plots with Plotly Express and hvplot, we created visualized the distinct groups that correspond to the three principal components we created in Deliverable 3, then we created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 
 Steps:
+
 16. Creating a 3D-Scatter with the PCA data and the clusters. See Figure A15.
 17. Create a table with tradable cryptocurrencies. See Figure A16.
 18. Print the total number of tradable cryptocurrencies (**the answer is 532**). See Figure A17.
